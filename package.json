@@ -1,0 +1,33 @@
+{
+  "name": "up-default-to",
+  "version": "1.0.0",
+  "description": "Utility to determine the return value for a given property, if function specified, then returns the result of a function.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild --bundle index.js --minify --outdir=dist/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelmickevic/up-default-to.git"
+  },
+  "keywords": [
+    "default",
+    "defaultTo",
+    "config",
+    "boolean",
+    "function"
+  ],
+  "author": "Pavel Mickevic <mickevic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelmickevic/up-default-to/issues"
+  },
+  "homepage": "https://github.com/pavelmickevic/up-default-to#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "esbuild": "^0.21.4",
+    "jest": "^29.7.0"
+  }
+}
