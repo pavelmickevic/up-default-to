@@ -1,8 +1,13 @@
 {
   "name": "up-default-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to determine the return value for a given property, if function specified, then returns the result of a function.",
   "main": "dist/index.js",
+  "files": [
+    "LICENSE",
+    "dist/index.js",
+    "package.json"
+  ],
   "scripts": {
     "build": "esbuild --bundle index.js --minify --outdir=dist/",
     "test": "jest"
