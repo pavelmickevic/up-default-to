@@ -11,8 +11,8 @@
     "package.json"
   ],
   "scripts": {
-    "build:esm": "esbuild --bundle index.js --format=esm --platform=node --out-extension:.js=.mjs --outdir=dist/",
-    "build:cjs": "esbuild --bundle index.js --format=cjs --platform=node --outdir=dist/",
+    "build:esm": "esbuild --bundle index.js --minify --format=esm --platform=node --out-extension:.js=.mjs --outdir=dist/",
+    "build:cjs": "esbuild --bundle index.js --minify --format=cjs --platform=node --outdir=dist/",
     "build": "npm run build:esm && npm run build:cjs",
     "test": "jest"
   },
