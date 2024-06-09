@@ -8,8 +8,10 @@
     "LICENSE",
     "dist/index.js",
     "dist/index.mjs",
-    "package.json"
+    "package.json",
+    "example.js"
   ],
+  "runkitExampleFilename": "example.js",
   "scripts": {
     "build:esm": "esbuild --bundle index.js --minify --format=esm --platform=node --out-extension:.js=.mjs --outdir=dist/",
     "build:cjs": "esbuild --bundle index.js --minify --format=cjs --platform=node --outdir=dist/",
