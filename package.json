@@ -1,6 +1,6 @@
 {
   "name": "up-default-to",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utility to determine the return value for a given property, if function specified, then returns the result of a function.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
